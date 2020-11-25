@@ -1,21 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Directory from "./pages/Directory";
-import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
       <div>
-        <Navbar />
+        <Jumbotron />
         <Wrapper>
-          <Route exact path="/directory" component={Directory} />
+          <Directory />
         </Wrapper>
         <Footer />
       </div>
-    </Router>
   );
 }
 
