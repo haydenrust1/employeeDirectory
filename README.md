@@ -1,6 +1,8 @@
 # Employee Directory
 
   ![License](https://img.shields.io/badge/license-MIT-blue)
+  
+  [Link to Site](https://employee-directory-hr.herokuapp.com/)
 
   ## Description
   * This application allows the user to observe their entire employee roster through the use of a React UI experience!
